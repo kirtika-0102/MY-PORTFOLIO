@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!--
+  ================================================
+  KIRTIKA MITTAL — PORTFOLIO (Standalone Version)
+  Open index.html directly in any browser.
+  No build step, no React, no dependencies.
+  ================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kirtika Mittal — CSE Student & Developer Portfolio" />
+  <title>Kirtika Mittal — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+       ============================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">KM<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#experience">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="mailto:kirtikamittal0102@gmail.com" class="nav-resume-btn">Hire Me</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- ==============================
+         HERO
+         ============================== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow animate-in animate-delay-1">
+          Available for Internships &amp; Collaborations
+        </p>
+        <h1 class="hero-name animate-in animate-delay-2">
+          Kirtika<br /><span class="accent">Mittal.</span>
+        </h1>
+        <p class="hero-tagline animate-in animate-delay-3">
+          Building intuitive web experiences and exploring data — from frontend interfaces to AI-powered applications.
+        </p>
+        <div class="hero-links animate-in animate-delay-4">
+          <a href="#projects" class="hero-link-btn primary">View Projects</a>
+          <a href="https://github.com/kirtika-0102" target="_blank" rel="noopener noreferrer" class="hero-link-btn">GitHub</a>
+          <a href="#contact" class="hero-link-btn">Get in Touch</a>
+        </div>
+        <div class="hero-stats animate-in animate-delay-5">
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">9.0</span>
+            <span class="hero-stat-label">CGPA</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">3</span>
+            <span class="hero-stat-label">Projects</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number">2</span>
+            <span class="hero-stat-label">Certificates</span>
+          </div>
+        </div>
+      </div>
+      <!-- Photo -->
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-circle"></div>
+      <img
+        class="hero-photo-img"
+        src="PORTFOLIO.png"
+        alt="Kirtika Mittal"
+      />
+    </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ==============================
+         ABOUT
+         ============================== -->
+    <section class="about" id="about">
+      <div class="section-header">
+        <p class="section-eyebrow">Who I Am</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm <strong>Kirtika Mittal</strong>, a B.Tech CSE student at <strong>ABES Engineering College, Ghaziabad</strong>, currently in my first year with a CGPA of 9.0. I'm passionate about building things on the web and exploring data.</p>
+          <p>From crafting responsive frontends to experimenting with <strong>AI-powered web apps</strong> and data analytics, I love working across the stack wherever curiosity takes me.</p>
+          <p>My recent work spans a movie discovery platform, a text-to-scene AI generator, and an accessibility-first sign language learning website — all built with a focus on real user impact.</p>
+          <p>I'm actively looking for <strong>internship opportunities</strong> in web development or data science where I can learn fast and contribute meaningfully.</p>
+          <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="https://github.com/kirtika-0102" target="_blank" rel="noopener noreferrer" class="hero-link-btn">↗ GitHub</a>
+            <a href="mailto:kirtikamittal0102@gmail.com" class="hero-link-btn">↗ Email Me</a>
+          </div>
+        </div>
+
+        <div class="about-skills-block">
+          <div class="skills-category">
+            <p class="skills-category-title">Languages</p>
+            <div class="skills-tags">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+            </div>
+          </div>
+          <div class="skills-category">
+            <p class="skills-category-title">Developer Tools</p>
+            <div class="skills-tags">
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Kaggle</span>
+              <span class="skill-tag">Google Colab</span>
+              <span class="skill-tag">Jupyter</span>
+            </div>
+          </div>
+          <div class="skills-category" style="border-left-color:var(--maroon-bright)">
+            <p class="skills-category-title">Currently</p>
+            <div class="skills-tags">
+              <span class="skill-tag">3rd Year B.Tech</span>
+              <span class="skill-tag">Open to Internships</span>
+              <span class="skill-tag">Learning Data Science</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+     HISTORY — EXPERIENCE + EDUCATION SIDE BY SIDE
+     ============================== -->
+<section class="history-section" id="experience">
+  <div class="history-grid">
+
+    <!-- LEFT: Experience -->
+    <div>
+      <h2 class="history-col-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <span class="tl-period">Oct 2025 – Present</span>
+          <h3 class="tl-role">Event Coordinator</h3>
+          <p class="tl-org">GeeksforGeeks — ABESEC Chapter</p>
+          <p class="tl-desc">Coordinating tech events, coding contests, and workshops for the GFG student chapter at ABES Engineering College. Managing logistics, outreach, and on-ground execution.</p>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <span class="tl-period">Jan 2026 – Present</span>
+          <h3 class="tl-role">Social Media Manager</h3>
+          <p class="tl-org">Elixir Tech Community</p>
+          <p class="tl-desc">Managing official social media presence — designing content, scheduling posts, and growing community engagement across platforms for a student-led tech community.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT: Education -->
+    <div>
+      <h2 class="history-col-title">Education</h2>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <span class="tl-period">Sept 2024 – July 2028</span>
+          <h3 class="tl-role">B.Tech in CSE (AKTU)</h3>
+          <p class="tl-org">ABES Engineering College</p>
+          <p class="tl-desc">Current CGPA: 9.0 ·
+            <br /> Focused on core CS fundamentals, web development, and data science.</p>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <span class="tl-period">2024</span>
+          <h3 class="tl-role">Class 12th (CBSE)</h3>
+          <p class="tl-org">Dewan Public School</p>
+          <p class="tl-desc">Scored 90.2% · PCM stream.
+            <br/> Built the academic and creative foundation
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ==============================
+     PROJECTS — HORIZONTAL HOVER STACK
+     ============================== -->
+<section class="projects" id="projects">
+  <div class="section-header">
+    <p class="section-eyebrow">What I've Built</p>
+    <h2 class="section-title">Projects</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="projects-stack-h">
+
+    <!-- Card 1 -->
+    <div class="psh-card">
+      <div class="psh-top">
+        <div class="psh-number">01</div>
+        <span class="psh-date">May 2024</span>
+      </div>
+      <div class="psh-mid">
+        <h3 class="psh-title">Cine-Verse</h3>
+        <p class="psh-desc">A frontend-only movie discovery website featuring paginated browsing, filter-based search, and a personal wishlist feature for saving favourite films.</p>
+      </div>
+      <div class="psh-bottom">
+        <div class="psh-tags">
+          <span class="psh-tag">HTML</span>
+          <span class="psh-tag">CSS</span>
+          <span class="psh-tag">JavaScript</span>
+        </div>
+        <div class="psh-arrow">↗</div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="psh-card">
+      <div class="psh-top">
+        <div class="psh-number">02</div>
+        <span class="psh-date">Jan 2024</span>
+      </div>
+      <div class="psh-mid">
+        <h3 class="psh-title">Text-to-Scene Generator</h3>
+        <p class="psh-desc">An AI-powered web app that transforms text prompts into detailed visuals. Includes customizable filters for lighting, tone, genre, and scene variations.</p>
+      </div>
+      <div class="psh-bottom">
+        <div class="psh-tags">
+          <span class="psh-tag">AI</span>
+          <span class="psh-tag">Web App</span>
+          <span class="psh-tag">JavaScript</span>
+        </div>
+        <div class="psh-arrow">↗</div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="psh-card">
+      <div class="psh-top">
+        <div class="psh-number">03</div>
+        <span class="psh-date">Nov 2025</span>
+      </div>
+      <div class="psh-mid">
+        <h3 class="psh-title">Signify — Express Meaning Through Signs</h3>
+        <p class="psh-desc">A website for deaf and hearing-abled people to learn sign language together. Uses GIFs and animations to teach alphabets, numbers, and common words.</p>
+      </div>
+      <div class="psh-bottom">
+        <div class="psh-tags">
+          <span class="psh-tag">HTML</span>
+          <span class="psh-tag">CSS</span>
+          <span class="psh-tag">JavaScript</span>
+          <span class="psh-tag">Accessibility</span>
+        </div>
+        <div class="psh-arrow">↗</div>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="projects-hint">↔ hover cards to explore</p>
+</section>
+    <!-- ==============================
+         CERTIFICATES
+         ============================== -->
+    <section class="certificates" id="certificates">
+      <div class="section-header">
+        <p class="section-eyebrow">Verified Learning</p>
+        <h2 class="section-title">Certificates</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="cert-list">
+        <div class="cert-card">
+          <h3 class="cert-title">Data Analytics Job Simulation</h3>
+          <p class="cert-issuer">Deloitte via Forage</p>
+          <p class="cert-date">Nov 2025</p>
+        </div>
+        <div class="cert-card">
+          <h3 class="cert-title">Python for Data Science</h3>
+          <p class="cert-issuer">Course Completion Certificate</p>
+          <p class="cert-date">July – Aug 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         CONTACT
+         ============================== -->
+    <section class="contact" id="contact">
+      <div class="section-header">
+        <p class="section-eyebrow">Let's Connect</p>
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="contact-inner">
+        <div>
+          <p class="contact-info-text">Open to internship opportunities, collaborations, and interesting projects. Whether you have a role in mind or just want to say hi — my inbox is always open.</p>
+          <div class="contact-details">
+            <a class="contact-item" href="mailto:kirtikamittal0102@gmail.com">
+              <div class="contact-item-icon">📧</div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">kirtikamittal0102@gmail.com</div>
+              </div>
+            </a>
+            <a class="contact-item" href="tel:7078410260">
+              <div class="contact-item-icon">📞</div>
+              <div>
+                <div class="contact-item-label">Phone</div>
+                <div class="contact-item-value">7078410260</div>
+              </div>
+            </a>
+            <a class="contact-item" href="https://github.com/kirtika-0102" target="_blank" rel="noopener noreferrer">
+              <div class="contact-item-icon">💻</div>
+              <div>
+                <div class="contact-item-label">GitHub</div>
+                <div class="contact-item-value">github.com/kirtika-0102</div>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <div class="contact-item-label">Location</div>
+                <div class="contact-item-value">Ghaziabad, Uttar Pradesh</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <div id="form-success" style="display:none;background:rgba(92,26,26,0.3);border:1px solid var(--maroon-bright);border-radius:4px;padding:1rem;color:var(--beige-light);font-size:0.88rem;margin-bottom:1rem;">
+            ✓ Opening your email client…
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input class="form-input" id="contactName" type="text" placeholder="Jane Doe" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input class="form-input" id="contactEmail" type="email" placeholder="jane@example.com" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="contactMessage" placeholder="Tell me about the opportunity or project…"></textarea>
+          </div>
+          <button class="form-submit" id="formSubmit">Send Message →</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================
+       FOOTER
+       ============================== -->
+  <footer>
+    <p class="footer-copy">© 2026 <span>Kirtika Mittal</span>. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#hero">Top</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="mailto:kirtikamittal0102@gmail.com">Email</a>
+      <a href="https://github.com/kirtika-0102" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
