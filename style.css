@@ -675,7 +675,7 @@ section {
 
 .projects-stack-h {
   position: relative;
-  width: 60%;
+  width: 70%;
   height: 480px;
   margin-top: 3rem;
   display: flex;
@@ -691,7 +691,7 @@ section {
   top: 0;
   left: 60%;
   margin-left: -15%;
-  width: 60%;
+  width: 100%;
   height: 100%;
   background: #161616;
   background-image:none;
