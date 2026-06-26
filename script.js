@@ -145,12 +145,16 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
   // Position config per card index when it is the "active front" card
   // Each entry = [card0_x, card1_x, card2_x, card0_rot, card1_rot, card2_rot]
-  const positions = {
-    //          c0       c1       c2     r0     r1     r2
-    0: { x: [-160,    140,    400],  r: [0,    4,     6],   o: [1,    0.85,  0.65] },
-    1: { x: [-420,   -160,    140],  r: [-4,   0,     4],   o: [0.75, 1,     0.85] },
-    2: { x: [-640,   -420,   -160],  r: [-5,  -3,     0],   o: [0.65, 0.75,  1    ] },
-  };
+ const positions = {
+  // Card 0 is front — cards 1,2,3 fan out to the right
+  0: { x: [-160,  140,  400,  640], r: [0,   4,   6,   8],  o: [1,    0.85, 0.65, 0.45] },
+  // Card 1 is front — card 0 pushed left, cards 2,3 peek right
+  1: { x: [-420, -160,  140,  400], r: [-4,  0,   4,   6],  o: [0.75, 1,    0.85, 0.65] },
+  // Card 2 is front — cards 0,1 pushed left, card 3 peeks right
+  2: { x: [-640, -420, -160,  140], r: [-6, -4,   0,   4],  o: [0.55, 0.75, 1,    0.85] },
+  // Card 3 is front — all others pushed off to the left
+  3: { x: [-860, -640, -420, -160], r: [-8, -6,  -4,   0],  o: [0.45, 0.55, 0.75, 1   ] },
+};
 
   let currentFront = 0;   // which card is currently in front
   let targetFront  = 0;   // which card we are animating toward
