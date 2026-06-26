@@ -473,7 +473,7 @@ section {
 
 .about-text p {
   color: var(--beige);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.85;
   margin-bottom: 1.2rem;
 }
@@ -489,7 +489,7 @@ section {
 .about-skills-block {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .skills-category {
@@ -858,10 +858,14 @@ section {
 }
 
 .psh-arrow {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  width: 70px;
+  height: 50px;
+  color: var(--maroon);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20%;
   border: 1px solid var(--border);
+  border-color: var(--maroon);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -875,7 +879,6 @@ section {
   background: var(--maroon);
   border-color: var(--maroon-bright);
   color: var(--white);
-  transform: rotate(45deg);
 }
 
 /* Hint text below stack */
